@@ -1,0 +1,21 @@
+@font-face {
+    font-family: GIOVANNI;
+    src: url('../../../assets/font/GIOVANNI.ttf') format("truetype");
+}
+*{
+    font-family: GIOVANNI;
+}
+@media (min-width: 100px){
+    .background{
+        width: 100%;
+        height: calc(100%-10px);
+        background: url('../../../assets/images/backgrounds/our-company.png') top center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        position: relative;
+    }
+    .spacer{
+        flex: 1 1 1;
+    }
+}

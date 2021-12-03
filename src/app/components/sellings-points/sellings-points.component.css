@@ -1,0 +1,38 @@
+@font-face {
+    font-family: GIOVANNI;
+    src: url('../../../assets/font/GIOVANNI.ttf') format("truetype");
+}
+@media(min-width:100px) {
+    .background {
+        width: 100%;
+        height: calc(100%-5px);
+        background: url('../../../assets/images/backgrounds/sellings-points.png') top center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        
+    }
+    .section-title {
+        font-weight: 700;
+        text-transform: uppercase;
+        padding-bottom: 0;
+        color:#ffffff;
+        position: relative;
+        z-index: 2;
+        text-align: center;
+    }
+    h1 {
+        font-size: 25px;
+        font-weight: 600;
+        text-transform: none;
+        color: #ffffff;
+        position: relative;
+        z-index: 2;
+        text-align: center;
+        font-family: GIOVANNI;
+    }
+    img{
+        width: 100%;
+        margin-left: 0px;
+    }
+}

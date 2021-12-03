@@ -1,0 +1,36 @@
+@font-face {
+    font-family: GIOVANNI;
+    src: url('../../../assets/font/GIOVANNI.ttf') format("truetype");
+}
+
+@media (min-width: 100px){
+    .background{
+        width: 100%;
+        height: calc(100%-10px);
+        background: url('../../../assets/images/backgrounds/mission-vision.png') top center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        position: relative;
+    }
+    .background2{
+        width: 100%;
+        height: calc(100%-10px);
+        background: url('../../../assets/images/backgrounds/our-values.png') top center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        position: relative;
+    }
+    .spacer{
+        flex: 1 1 1;
+    }
+    p{
+        font-size: calc(12px + 6 * ((100vw - 100px) / 2000));
+        font-family: 'GIOVANNI';
+    }
+    h5{
+        font-size: calc(20px + 6 * ((100vw - 100px) / 2000));
+        font-family: 'GIOVANNI';
+    }
+}
